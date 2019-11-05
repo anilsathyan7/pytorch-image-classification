@@ -62,7 +62,7 @@ Sample classification results
 
 1. In **transfer learning**, if your custom dataset is **similar** to the pretrained model's training dataset, then you can easily acheive very **high accuracy**(>90) with very **few training epochs**(<10).
 2. The **VGG11 network** with 128M params has a very large size i.e **0.5 GB**, compared to other models like **Resnet18(40 MB)** with 11M params and **MobilnetV2(10 MB)**, with 2M parameters.
-3. In comparison to other models the **VGG** network becomes **computationally inefficient** due to **large width of its convolutional layers**. Also, multiple **fully connected layers** at the end of the network drastically increases the **number of paramters** and memory requirements.
+3. In comparison to other models the **VGG** network is **computationally inefficient**, since they use **large convolutional layer widths**. Also, multiple **fully connected layers** at the end of the network drastically increases the **number of paramters** and memory requirements.
 4. The **MobilenetV2** with **depthwise convolution** and **inverted residuals** has **fewer operations**(faster) and **less parameters**(smaller) compared to other models. Additionally, it has a tunable **depth-multiplier** parameter(speed-accuracy) for application specific requirements.
 5. Adjusting parameters like **batch size, number of workers, pin_memory, non_blocking** etc. may help you **reduce training time**, especially if you have a big dataset and a high-end machine(hardware).
 
