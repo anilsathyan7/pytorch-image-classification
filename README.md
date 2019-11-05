@@ -17,6 +17,10 @@ pip install tensorboard  # tensoflow-logging
 
 ### How to run
 
+Download the dataset: [imdb_small](https://drive.google.com/drive/folders/1xrHX-koYLBXUP8CIVopEmhg0WMKhVeNY?usp=sharing)
+
+Run the following **scripts** for training and/or testing
+
 ```python
 python train.py # For training the model [--mode=finetune/transfer/scratch]
 python test.py test # For testing the model on sample images
@@ -32,17 +36,18 @@ python eval.py data/eval # For evaluating the model on new dataset
 | **MobilenetV2**  | 97.72  | 9.2 MB | 32 mins | transfer |
 
 **Batch size**: 64, **GPU**: Tesla K80
+
 Both **Resnet18 and MobilenetV2**(transfer leraning) were trained for **10 epochs**; whereas **VGG11**(training from scratch) was trained for **100 epochs**.
 
 
 ### Training graphs
 
-Resnet18:- 
+**Resnet18:-** 
 
 Finetuning the pretrained resnet18 model.
 ![Screenshot](results/resnet18.png)
 
-Mobilenetv2:-
+**Mobilenetv2:-**
 
 Mobilenetv2 as a fixed feature extractor.
 ![Screenshot](results/mobilenetv2.png)
