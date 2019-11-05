@@ -24,7 +24,7 @@ Run the following **scripts** for training and/or testing
 ```python
 python train.py # For training the model [--mode=finetune/transfer/scratch]
 python test.py test # For testing the model on sample images
-python eval.py data/eval # For evaluating the model on new dataset
+python eval.py imdb_small/eval # For evaluating the model on new dataset
 ```
 
 ### Training results
@@ -55,6 +55,7 @@ Mobilenetv2 as a fixed feature extractor.
 ### Sample outputs
 
 Sample classification results
+
 ![Screenshot](results/output.png)
 
 ### Observations
