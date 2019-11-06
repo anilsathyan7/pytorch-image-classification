@@ -17,14 +17,14 @@ pip install tensorboard  # tensoflow-logging
 
 ### How to run
 
-**Download** the dataset: [imdb_small](https://drive.google.com/drive/folders/1xrHX-koYLBXUP8CIVopEmhg0WMKhVeNY?usp=sharing)
+**Download** and extract train-dataset: [imds_small](https://drive.google.com/file/d/1fPDnom5uGTpCb0abkzCvKbLadtNx8FlW/view?usp=sharing)
 
 Run the following **scripts** for training and/or testing
 
 ```python
 python train.py # For training the model [--mode=finetune/transfer/scratch]
 python test.py test # For testing the model on sample images
-python eval.py imdb_small/eval # For evaluating the model on new dataset
+python eval.py eval_ds # For evaluating the model on new dataset
 ```
 
 ### Training results
