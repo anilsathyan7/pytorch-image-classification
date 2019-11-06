@@ -22,8 +22,8 @@ args= vars(ap.parse_args())
 train_mode=args["mode"]
 
 # Set the train and validation directory paths
-train_directory = 'imdb_small/train'
-valid_directory = 'imdb_small/val'
+train_directory = 'imds_small/train'
+valid_directory = 'imds_small/val'
 # Set the model save path
 PATH="model.pth" 
 
