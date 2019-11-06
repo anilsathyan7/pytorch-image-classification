@@ -17,7 +17,7 @@ pip install tensorboard  # tensoflow-logging
 
 ### How to run
 
-**Download** and extract train-dataset: [imds_small](https://drive.google.com/file/d/1fPDnom5uGTpCb0abkzCvKbLadtNx8FlW/view?usp=sharing)
+**Download** and extract training dataset: [imds_small](https://drive.google.com/file/d/1fPDnom5uGTpCb0abkzCvKbLadtNx8FlW/view?usp=sharing)
 
 Run the following **scripts** for training and/or testing
 
