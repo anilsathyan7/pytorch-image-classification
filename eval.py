@@ -37,6 +37,9 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 num_classes=len(eval_dataset.classes)
 dsize=len(eval_dataset)
 
+# Class label names
+class_names=['apple','atm card','cat','banana','bangle','battery','bottle','broom','bulb','calender','camera']
+
 # Initialize the prediction and label lists
 predlist=torch.zeros(0,dtype=torch.long, device='cpu')
 lbllist=torch.zeros(0,dtype=torch.long, device='cpu')
@@ -72,8 +75,8 @@ class_accuracy=100*conf_mat.diagonal()/conf_mat.sum(1)
 print('Per class accuracy')
 print('-'*18)
 for label,accuracy in zip(eval_dataset.classes, class_accuracy):
-     print('Accuracy of %3s : %0.2f %%'%(label, accuracy))
-
+     class_name=class_names[int(label)]
+     print('Accuracy of class %8s : %0.2f %%'%(class_name, accuracy))
 
 '''
 Sample run: python eval.py eval_ds
