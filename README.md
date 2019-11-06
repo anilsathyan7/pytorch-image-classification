@@ -60,7 +60,9 @@ Sample classification results
 
 ### Evaluation
 
-Accuracy of the network on the 550 test images: 99.09%
+Here we **evaluate** the performance of our **best model - resnet18** on a **new data-set** containing 50 images(unseen) per class.
+
+**Accuracy** of the network on the 550 test images: **99.09%**
 
 **Confusion Matrix**
 ```
