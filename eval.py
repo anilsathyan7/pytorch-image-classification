@@ -72,7 +72,7 @@ class_accuracy=100*conf_mat.diagonal()/conf_mat.sum(1)
 print('Per class accuracy')
 print('-'*18)
 for label,accuracy in zip(eval_dataset.classes, class_accuracy):
-     print('Accuracy of %3s : %0.2f %%'%(label, accuracy)
+     print('Accuracy of %3s : %0.2f %%'%(label, accuracy))
 
 
 '''
