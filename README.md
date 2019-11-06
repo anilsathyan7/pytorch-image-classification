@@ -61,8 +61,9 @@ Sample classification results
 ### Evaluation
 
 Accuracy of the network on the 550 test images: 99.09%
-Confusion Matrix
-----------------
+
+**Confusion Matrix**
+```
 [[50  0  0  0  0  0  0  0  0  0  0]
  [ 0 50  0  0  0  0  0  0  0  0  0]
  [ 0  0 50  0  0  0  0  0  0  0  0]
@@ -74,9 +75,9 @@ Confusion Matrix
  [ 0  0  0  0  0  0  0  0 50  0  0]
  [ 0  0  0  0  0  0  0  0  0 50  0]
  [ 0  0  0  0  0  0  0  0  0  0 50]] 
-
-Per class accuracy
-------------------
+```
+**Per class accuracy**
+```
 Accuracy of class    apple : 100.00 %
 Accuracy of class atm card : 100.00 %
 Accuracy of class   camera : 100.00 %
@@ -88,7 +89,7 @@ Accuracy of class   bottle : 100.00 %
 Accuracy of class    broom : 100.00 %
 Accuracy of class     bulb : 100.00 %
 Accuracy of class calender : 100.00 %
-
+```
 ### Observations
 
 1. In **transfer learning**, if your custom dataset is **similar** to the pretrained model's training dataset, then you can easily acheive very **high accuracy**(>90) with very **few training epochs**(<10).
