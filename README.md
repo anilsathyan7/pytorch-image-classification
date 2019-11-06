@@ -60,7 +60,7 @@ Sample classification results
 
 ### Evaluation
 
-Here we **evaluate** the performance of our **best model - resnet18** on a **new data-set** containing 50 images(unseen) per class.
+Here we **evaluate** the performance of our **best model - resnet18** on a **new data-set** containing 50 images per class.
 
 **Accuracy** of the network on the 550 test images: **99.09%**
 
