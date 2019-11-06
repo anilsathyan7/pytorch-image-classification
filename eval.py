@@ -76,5 +76,5 @@ for label,accuracy in zip(eval_dataset.classes, class_accuracy):
 
 
 '''
-Sample run: python eval.py data/eval
+Sample run: python eval.py eval_ds
 '''
