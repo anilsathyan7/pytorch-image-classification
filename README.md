@@ -105,6 +105,10 @@ Accuracy of class calender : 100.00 %
 1. Experiments with different **learning-rate and optimizers**.
 2. **Converting and optimizing** pytorch models for **mobile** deployment.
 
+### License
+
+This project is licensed under the terms of the [MIT](LICENSE) license.
+
 ### Versioning
 
 Version 1.0
