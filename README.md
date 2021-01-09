@@ -117,6 +117,10 @@ Version 1.0
 
 Anil Sathyan
 
+### Citations
+
+ If you find this code useful in your research, please consider citing: [![DOI](https://zenodo.org/badge/219696552.svg)](https://zenodo.org/badge/latestdoi/219696552)
+ 
 ### Acknowledgments
 * "https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
 * "https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html"
