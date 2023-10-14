@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import torch
 import torchvision
@@ -7,7 +8,7 @@ import multiprocessing
 from sklearn.metrics import confusion_matrix
 
 # Paths for image directory and model
-EVAL_DIR=sys.argv[1])
+EVAL_DIR=sys.argv[1]
 EVAL_MODEL='models/mobilenetv2.pth'
 
 # Load the model for evaluation
